@@ -66,7 +66,43 @@ interfaces if they have a compatible abstract method signature.
 
 ### 3.5.3 Type Inference
 
-
 ### 3.5.4 Using Local Variables
 
+#### Restrictions on local variables
+
+#### Closure
+
+A closure is an instance of a function that can reference nonlocal variables of that function with on restrictions.
+
+## 3.6 Method References
+
+### 3.6.1 In a Nutshell
+
+| Lambda | Method Reference Equivalent |
+| ------ | ---------------------------- |
+| <code>(Apple a) -> a.getWeight() | Apple::getWeight|
+| | |
+
+#### Recipe for constructing method references
+
+3 main kinds of method references
+
+<ol>
+    <li>to a static method</li>
+    <ul>eg.<li><code>Integer::parseInt</code></li></ul>
+    <li>to an instance method of an arbitrary type</li>
+    <ul>eg.<li><code>String::length</code></li></ul>
+    <li>to an instance method of an existing object</li>
+    <ul>eg.<li><code>expensiveTransaction::getValue</code></li></ul>
+</ol>
+
+### 3.6.2 Constructor References
+
+## 3.7 Putting Lambdas and Method References into Practice
+
+## 3.8 Useful Methods to Compose Lambda Expressions
+
+## 3.9 Similar Ideas from Mathematics
+
+## 3.10 Summary
 

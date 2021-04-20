@@ -1,6 +1,6 @@
-package com.an7one.example.part1.ch02.predicate;
+package com.an7one.part1.ch02.predicate;
 
-import com.an7one.example.part1.ch02.model.Apple;
+import com.an7one.part1.ch02.model.Apple;
 
 public class AppleRedAndHeavyPredicate implements ApplePredicate {
     public boolean test(Apple apple) {

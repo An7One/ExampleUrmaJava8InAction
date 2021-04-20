@@ -1,7 +1,7 @@
-package com.an7one.example.part1.ch02;
+package com.an7one.part1.ch02;
 
-import com.an7one.example.part1.ch02.model.Apple;
-import com.an7one.example.part1.ch02.predicate.AppleRedAndHeavyPredicate;
+import com.an7one.part1.ch02.model.Apple;
+import com.an7one.part1.ch02.predicate.AppleRedAndHeavyPredicate;
 
 import java.util.Arrays;
 import java.util.List;

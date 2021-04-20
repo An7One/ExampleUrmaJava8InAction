@@ -1,4 +1,4 @@
-package com.an7one.example.part1.ch02.model;
+package com.an7one.part1.ch02.model;
 
 public class Apple {
     private final String color;
